@@ -5,6 +5,14 @@ npm install --save-dev @testing-library/react @testing-library/jest-dom @testing
 Testit suoritetaan komennolla npm test tai npm run test
 
 ---------------------------------------------------------------------
-Cypress e2e testikirjaston asennuskomento:
+----------------------------------------------------------------------
 
+Cypress e2e testikirjaston asennuskomento:
 npm install -save-dev cypress
+------------------------------------------------------------------
+Package.json tiedostoon scripteihin lisätään:
+"cypress:open": "cypress open"
+-------------------------------------------------------------------
+Seuraavaksi testi ajetaan komennolla: npm run cypress:open
+
+Cypressin testiselain avautuu ja muokataan projektin tiedostot cypress kansion alla kuten tässä malliprojektissa ja videoilla esitellyllä tavalla.
