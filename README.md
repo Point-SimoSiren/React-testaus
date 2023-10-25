@@ -11,7 +11,7 @@ Huomio myös Package.json tiedostoon Scripts kohtaan tehdyt määritykset:
 
   ja alempana kohta "jest" ja sitä seuraavat määritykset.
 
-  
+  Testit ajetaan komennolla: npm test tai npm run test
 
 ---------------------------------------------------------------------
 
