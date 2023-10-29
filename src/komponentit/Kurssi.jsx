@@ -1,6 +1,6 @@
 import React from 'react'
 import './Tyyli.css'
-import kurssiservice from '../services/Kurssit'
+
 
 // propsit otettu vastaan suoraan nimellä
 const Kurssi = ({ kurssi, poistaKurssi }) => {
