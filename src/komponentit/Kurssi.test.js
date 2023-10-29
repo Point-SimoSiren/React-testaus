@@ -11,7 +11,10 @@ test('Kurssi komponentti renderöityy oikein', () => {
         laajuus: "4"
       }
     
-    render(<Kurssi kurssi={kurssi} />)
+    
+      const mockHandler = jest.fn()
+    
+    render(<Kurssi kurssi={kurssi} poistaKurssi={mockHandler} />)
   
     const element = screen.getByText('Testikurssi 4 OSP')
     expect(element).toBeDefined()
