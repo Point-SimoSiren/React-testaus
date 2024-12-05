@@ -13,5 +13,8 @@ Huomio myös Package.json tiedostoon Scripts kohtaan tehdyt määritykset:
 
   Testit ajetaan komennolla: npm test tai npm run test
 
+  UUSI 2024:
+  npm install jest@latest jest-environment-jsdom@latest --save-dev
+
 ---------------------------------------------------------------------
 
